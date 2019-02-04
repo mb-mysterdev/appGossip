@@ -16,7 +16,7 @@ Like.destroy_all
 
 Taggossip.destroy_all
 
-
+FirstNameTable.destroy_all
 
 10.times do 
 
@@ -88,4 +88,13 @@ puts "10 likes ont été créés"
   end
 
 puts "20 tags ont été attribués aux gossips créés"
+
+20.times do
+   first = FirstNameTable.create!(first_name: Faker::Name.name)
+
+
+  end
+
+  puts "20 tags ont été attribués aux gossips créés"
+
 
