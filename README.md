@@ -28,7 +28,9 @@ POUR FAIRE LES TESTS ENTRE DONC CETTE COMMANDE
 
 rspec
 
-Projet qui lance un site internet sur un serveur local. 
-Une fois que vous avez entrez votre blaze, vous pouvez entrer dans le site internet...Les gossips seront affichés les uns à la suite des autres dans un MA-NI-FYQUE tableau ma chérie. 
-Faites vous plaiz !
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Projet qui lance un site internet sur un serveur local. </br>
+Une fois que vous avez entrez votre blaze, vous pouvez entrer dans le site internet...Les gossips seront affichés les uns à la suite des autres dans un MA-NI-FYQUE tableau ma chérie. </br>
+Faites vous plaiz !</br></br>
 @Bouhlel Mohamed, @MisterAys, @Polo_M
