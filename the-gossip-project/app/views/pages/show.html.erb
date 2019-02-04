@@ -18,10 +18,29 @@
     </ul>
   </div>
 </nav>
+<center>
 
-              <%=  @id_gossips.title %><br>
-        <%=  @id_gossips.content %><br>
-        <%=  @id_gossips.created_at %><br>
-   <a href="/user/<%= @id_gossips.user_id %>"><%=  @id_gossips.user.first_name %></a>
+<div class="card">
+  <div class="card-header">
+<br><%=  @id_gossips.title %>
+
+  </div>
+  <div class="card-body">
+    <h5 class="card-title"> <%=  @id_gossips.content %><br></h5>
+    <p class="card-text">  <%=  @id_gossips.created_at %><br></p>
+    <a  href="/user/<%= @id_gossips.user_id %>"  class="btn btn btn-primary"><%=  @id_gossips.user.first_name %></a>
+  </div>
+</div>
+</center>
+<style>
+
+body { background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+    background: linear-gradient(to right, #25c481, #25b7c4);
+    
+}
+</style>
+       
+      <br>
+  </a>
         
 
